@@ -310,8 +310,6 @@ class ExpenseVisualizer:
             return
         
         # Create subplots
-        from plotly.subplots import make_subplots
-        
         fig = make_subplots(
             rows=2, cols=2,
             subplot_titles=(

@@ -206,21 +206,16 @@ class AnomalyDetector:
         for transaction in transactions:
             transaction.is_anomaly = False
         
+        # Run detection methods on original list (they modify in place)
+        statistical_anomalies = self.detect_statistical_anomalies(transactions)
+        ml_anomalies = self.detect_ml_anomalies(transactions)
+        frequency_anomalies = self.detect_frequency_anomalies(transactions)
+        
         results = {
-            'statistical': self.detect_statistical_anomalies(transactions.copy()),
-            'ml_based': self.detect_ml_anomalies(transactions.copy()),
-            'frequency': self.detect_frequency_anomalies(transactions.copy())
+            'statistical': statistical_anomalies,
+            'ml_based': ml_anomalies,
+            'frequency': frequency_anomalies
         }
-        
-        # Mark all detected anomalies in original list
-        all_anomalies = set()
-        for method_anomalies in results.values():
-            for anomaly in method_anomalies:
-                all_anomalies.add(id(anomaly))
-        
-        for transaction in transactions:
-            if id(transaction) in all_anomalies:
-                transaction.is_anomaly = True
         
         return results
     
