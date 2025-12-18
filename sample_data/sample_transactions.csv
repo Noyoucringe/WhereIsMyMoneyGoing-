@@ -1,0 +1,51 @@
+date,merchant,amount,description
+2024-01-15,Starbucks Coffee,5.75,Morning coffee
+2024-01-15,Shell Gas Station,52.30,Gas fill-up
+2024-01-16,Amazon,45.99,Online shopping
+2024-01-16,Walmart Grocery,78.45,Weekly groceries
+2024-01-17,Netflix,15.99,Monthly subscription
+2024-01-17,Uber,12.50,Ride to office
+2024-01-18,McDonald's,8.25,Lunch
+2024-01-18,Target,34.67,Household items
+2024-01-19,CVS Pharmacy,23.45,Prescription medicine
+2024-01-19,Electric Company,125.00,Monthly bill
+2024-01-20,Chipotle,14.50,Dinner
+2024-01-20,Planet Fitness,29.99,Gym membership
+2024-01-21,Verizon,85.00,Phone bill
+2024-01-21,Starbucks Coffee,6.25,Afternoon coffee
+2024-01-22,Kroger,95.30,Groceries
+2024-01-22,Shell Gas Station,48.75,Gas
+2024-01-23,Amazon Prime Video,8.99,Subscription
+2024-01-23,Domino's Pizza,28.50,Dinner
+2024-01-24,Best Buy,199.99,Electronics
+2024-01-24,Walgreens,18.75,Personal care
+2024-01-25,Comcast Internet,89.99,Monthly bill
+2024-01-25,Lyft,15.80,Ride home
+2024-01-26,Panera Bread,12.35,Lunch
+2024-01-26,Home Depot,156.45,Home improvement
+2024-01-27,Spotify,10.99,Music subscription
+2024-01-27,Whole Foods,67.80,Organic groceries
+2024-01-28,Exxon Gas,51.20,Gas
+2024-01-28,Uber Eats,32.45,Food delivery
+2024-01-29,Apple Store,999.00,New iPhone
+2024-01-29,Starbucks Coffee,5.50,Coffee
+2024-01-30,Safeway,88.90,Groceries
+2024-01-30,AT&T,95.00,Phone service
+2024-02-01,State Farm Insurance,150.00,Car insurance
+2024-02-01,McDonald's,9.75,Breakfast
+2024-02-02,Target,45.60,Shopping
+2024-02-02,Shell Gas,49.85,Gas
+2024-02-03,Costco,234.50,Bulk shopping
+2024-02-03,Netflix,15.99,Subscription
+2024-02-04,Hilton Hotel,189.00,Business travel
+2024-02-04,Delta Airlines,325.00,Flight ticket
+2024-02-05,Subway,8.50,Lunch
+2024-02-05,CVS Pharmacy,31.20,Vitamins
+2024-02-06,Rent Payment,1500.00,Monthly rent
+2024-02-06,Chipotle,13.75,Dinner
+2024-02-07,Amazon,67.80,Books
+2024-02-07,Starbucks Coffee,6.00,Coffee
+2024-02-08,Uber,18.50,Ride to airport
+2024-02-08,Walmart,102.35,Groceries and supplies
+2024-02-09,Adobe Creative Cloud,52.99,Software subscription
+2024-02-09,Shell Gas,54.60,Gas
